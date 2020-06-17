@@ -1,15 +1,12 @@
-import React, {Component} from 'react';
-import Header from './components/Header';
-import BodyLeft from './components/BodyLeft';
-import BodyRight from './components/BodyRight';
+import React from 'react';
+import Home from './pages/Home';
 import './style.css'
+import Routes from './routes';
 
 
 const App = () => (
 <div className="App">
-    <Header/>
-    <BodyLeft/>
-    <BodyRight/>
+      <Routes/>
     </div>
   );
 

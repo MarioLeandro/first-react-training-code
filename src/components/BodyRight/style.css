@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../../assets/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(../../assets/Lobster-Regular.ttf);
+}
+
+div#div-right{
+    left: 1000px;
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    width: 37.5%;
+    background-image: linear-gradient(to right, #86ddd9 , #4da2c1);
+}
+div#login{
+    color: dimgray;
+    border-radius: 20px;
+    position: relative;
+    top: 25%;
+    left: 8.3%;
+    height: 55%;
+    width: 85%;
+    background-color: #cfeef3;
+}
+
+div#form{
+    text-align: center;
+    position: relative;
+    top: 8%;
+    left: 2%;
+}
+
+.icon{
+    position: relative;
+    top: 10px;
+    left: -2%;
+}
+
+.btn{
+    background-color: #1072ba;
+    border-radius: 5px;
+    width: 100px;
+    height: 45px;
+    border: 0;
+    transition: .6s;
+    overflow: hidden;
+}
+
+
+  
+  .btn:hover{
+    background: #86ddd9;
+    cursor: pointer;
+  }
+
+  

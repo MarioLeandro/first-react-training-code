@@ -12,8 +12,8 @@ div#div-right{
     left: 1000px;
     top: 0px;
     position: absolute;
-    height: 100vw;
-    width: 100vh;
+    height: 100%;
+    width: calc(100% - 1000px);
     background-image: linear-gradient(to right, #86ddd9 , #4da2c1);
 }
 div#login{
